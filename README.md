@@ -41,6 +41,26 @@ CLAM_USAPAT_version/
 - 根目录 `requirements.txt` 为合并版；USAPAT 单独依赖见 `code_USAPAT/requirements.txt`
 - `code_clam` 需要额外安装 `openslide-python`、`byol_pytorch` 等（见 `requirements.txt` 注释）
 
+## 引用 / Citation
+
+如果本项目的 USAPAT 代码对您的研究有帮助，请引用：
+
+```bibtex
+@article{WANG2026115169,
+  author  = {Qiuli Wang and Yongxu Liu and Li Ma and Yue Zhang and Kaiyan Li and Xianqi Wang and Yong Lin and S. Kevin Zhou and Wei Chen and Xiaohong Yao},
+  title   = {Unsupervised stain-aware pixel-adversarial transfer learning for virtual immunohistochemical staining},
+  journal = {Knowledge-Based Systems},
+  volume  = {335},
+  pages   = {115169},
+  year    = {2026},
+  issn    = {0950-7051},
+  doi     = {https://doi.org/10.1016/j.knosys.2025.115169},
+  url     = {https://www.sciencedirect.com/science/article/pii/S0950705125022038},
+}
+```
+
+`code_clam/` 部分基于 CLAM 修改，使用相关功能时也请一并引用原始 CLAM 论文（Lu et al., *Nature Biomedical Engineering*, 2021）。
+
 ## 备注
 
 - `code_clam` 中的 `extract_patches_sdpc.py` 依赖本地 `sdpc` 模块，未随仓库发布（如需要请联系作者）
